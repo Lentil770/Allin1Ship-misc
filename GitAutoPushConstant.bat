@@ -1,13 +1,13 @@
 :loop
 	
 	:: Navigate to the directory you wish to push to GitHub
-	::Change <path> as needed. Eg. C:\Users\rich\Desktop\Writings
-	cd C:\Users\mushk\Allin1Ship\Allin1ship-Files
+	::Change <path> as needed. Eg. C:\Users\allin1ship\Allin1ship-Files
+	cd [filepath]\Allin1ship-Files
 	
 	::Pull any external changes (maybe you deleted a file from your repo?)
 	git pull
 
-    git status
+    	git status
 	
 	::Add all files in the directory
 	git add -A
