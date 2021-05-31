@@ -1,29 +1,37 @@
 # MISC
 This Folder holds misc services, etc for Allin1ship files.
 
-# setup from Github:
+## setup from Github:
 ensure git is installed and available from cmd (test with git --version)
 (if not install from https://git-scm.com/downloads)
 from the folder you wish to store it in run:
 - git clone https://github.com/Lentil770/Allin1Ship-misc.git
 - cd Allin1Ship-misc
 
+## local setup:
+in folder where you want the development code folder stored run:
+- git clone https://github.com/shoppinggenius/Allin1ship-Files.git
+- ensure it downloads
+- update both GitAutoPush Files with file path to Allin1ship-Files folder
+
 follow instructions to run daily and constant schedule files (below)
 
 ## GitAutoPushConstant.bat
 This should be started every time someone uses the files (at beginning of work every day) to keep github and local copys up to date, and have all users using same version
 
+- Update Line 4 with correct file path to Allin1ship-Files folder
 INSTRUCTIONS:
-Run from cmd (windows search cmd and enter), just input [file location]\GitAutoPushConstant.bat
-(paste it in and enter, file should run automatically)
-leave it running and it should run pull and push to github every 60 seconds,
-to keep all computers running it up to date on code and able to edit code simultaniously.
+- Run from cmd (windows search cmd and enter), just input [file location]\GitAutoPushConstant.bat
+- (paste it in and enter, file should run automatically)
+-  leave it running and it should run pull and push to github every 60 seconds,
+- to keep all computers running it up to date on code and able to edit code simultaniously.
 
 ## GitAutoPushDaily.bat
 this should be set as a computer daily task to run once a day to keep local version somewhat up to date even if constant file is not run.
 
 SET UP:
-
+- Update Line 4 with correct file path to Allin1ship-Files folder
+- 
 -Type task scheduler in the Windows Search box and click on the search result in order to open the Task Scheduler.
 -Click Task Scheduler Library in the left pane
 -Select Create Basic Task in the right pane.
