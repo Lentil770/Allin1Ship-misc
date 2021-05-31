@@ -1,6 +1,15 @@
 # MISC
 This Folder holds misc services, etc for Allin1ship files.
 
+# setup from Github:
+ensure git is installed and available from cmd (test with git --version)
+(if not install from https://git-scm.com/downloads)
+from the folder you wish to store it in run:
+- git clone https://github.com/Lentil770/Allin1Ship-misc.git
+- cd Allin1Ship-misc
+
+follow instructions to run daily and constant schedule files (below)
+
 ## GitAutoPushConstant.bat
 This should be started every time someone uses the files (at beginning of work every day) to keep github and local copys up to date, and have all users using same version
 
